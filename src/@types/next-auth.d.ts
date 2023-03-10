@@ -1,11 +1,15 @@
 import NextAuth from 'next-auth/next'
 
-export module 'next-auth' {
+declare module 'next-auth' {
   interface user {
     id: string
     name: string
     email: string
     username: string
     avatar_url: string
+  }
+
+  interface Session {
+    user: User
   }
 }
