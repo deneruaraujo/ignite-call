@@ -1,5 +1,6 @@
 import { api } from '@/lib/axios'
-import { useQuery } from '@tanstack/react-query/build/lib/useQuery'
+import { useQuery } from '@tanstack/react-query'
+
 import dayjs from 'dayjs'
 import { useRouter } from 'next/router'
 import { useState } from 'react'

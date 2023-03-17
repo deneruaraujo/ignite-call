@@ -4,7 +4,7 @@ import { Roboto } from 'next/font/google'
 import { SessionProvider } from 'next-auth/react'
 import '../lib/dayjs'
 import { queryClient } from '@/lib/react-query'
-import { QueryClientProvider } from '@tanstack/react-query/build/lib/QueryClientProvider'
+import { QueryClientProvider } from '@tanstack/react-query'
 
 globalStyles()
 
